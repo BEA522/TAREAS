@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const metros = 30000;
+        let transporte = '';
+
+        if (metros > 0 && metros 2000) {
+            transporte = 'pie';
+        } else if (metros > 2000 && metros <= 5000) {
+            transporte = 'bicicleta';
+        } else if (metros > 5000 && metros <= 10000) {
+            transporte = 'colectivo';
+        } else if (metros > 10000 && metros <= 20000) {
+            transporte = 'auto';
+        } else if (metros > 20000 && metros <= 50000) {
+            transporte = 'avion';
+        }
+
+        console.log('Para ${metros} metros deberias viajar en ${transporte}');
+
+        
+    </script>
+</body>
+
+</html>
