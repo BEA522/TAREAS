@@ -1,0 +1,23 @@
+  
+body {  
+    margin: 0;  
+    padding: 20px;  
+    text-align: center;  
+    transition: background-color 0.5s; /* Transición suave al cambiar el color */  
+}  
+.color-box {  
+    display: inline-block;  
+    width: 100px;  
+    height: 100px;  
+    margin: 10px;  
+    cursor: pointer;  
+    border-radius: 1px;  
+    transition: transform 0.3s;  
+}  
+.color-box:hover {  
+    transform: scale(1.1);  
+}  
+.red { background-color: red; }  
+.green { background-color: green; }  
+.blue { background-color: blue; }  
+
