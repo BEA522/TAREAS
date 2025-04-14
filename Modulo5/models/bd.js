@@ -10,10 +10,6 @@ var pool = mysql.createPool({
 });
 
 
-=localhost
-MYSQL_DB_NAME=ejercicio
-MYSQL_USER=root
-MYSQL_HOSTMYSQL_PASSWORD=
 
 pool.query = util.promisify(pool.query);
 
